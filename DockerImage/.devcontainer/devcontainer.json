@@ -1,0 +1,42 @@
+{
+  "name": "Generic Dev Environment (Java 21 + Node + Flutter)",
+
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+
+  "features": {
+    "ghcr.io/devcontainers/features/node:2": {
+      "version": "24"
+    }
+  },
+
+  // Forward ports so you can access Flutter Web servers from host
+  "forwardPorts": [8080],
+
+
+
+  // Mount your host folder into the container
+  "workspaceFolder": "/workspace",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind",
+
+  // Extensions installed inside the container
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Dart-Code.dart-code",
+        "Dart-Code.flutter",
+        "redhat.java",
+        "vscjava.vscode-java-pack",
+        "ms-vscode.cpptools",
+        "ms-python.python"
+      ]
+    }
+  },
+
+  // Run as root inside container (simpler for installs)
+  "remoteUser": "vscode",
+
+  // Confirm the development tools are available
+  "postCreateCommand": "java --version && javac --version && mvn --version && node --version && flutter doctor -v"
+}
