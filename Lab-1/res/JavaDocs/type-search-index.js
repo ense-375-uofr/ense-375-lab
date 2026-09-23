@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"ense375","l":"CoffeeMaker"},{"p":"ense375","l":"Inventory"},{"p":"ense375","l":"Recipe"}]
