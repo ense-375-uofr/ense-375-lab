@@ -256,7 +256,7 @@ You are to create a **Coffee Maker Simulation**. This coffee maker can store up 
 - Make some coffee. Remember that your inventory should go down depending on the recipe being made.
 - Initialization of variables in your classes should be done in your constructors.
 - Generate JavaDocs for the source code given to you.
-- Use the link to the Lab 1 Assignment on URCourses.  This is a link to the assignemnt in GitHub Classroom.  A GitHub template will be provide to you.
+
  
 
 ## Assignment
