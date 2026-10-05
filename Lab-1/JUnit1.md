@@ -255,7 +255,7 @@ You are to create a **Coffee Maker Simulation**. This coffee maker can store up 
 - Your coffee maker must hold 4 recipes and have 20 units of coffee, milk, and sugar in its inventory. The inventory should be filled in the constructor.
 - Make some coffee. Remember that your inventory should go down depending on the recipe being made.
 - Initialization of variables in your classes should be done in your constructors.
-- Generate JavaDocs for the source code given to you.
+- Generate JavaDocs from the source code created by you.  It is optional to create JavaDocs for your test code.
 
  
 
