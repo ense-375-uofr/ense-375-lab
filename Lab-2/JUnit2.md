@@ -532,5 +532,5 @@ Add to the user PATH
 ---
 
 ## Deliverables
-Use the link to the Lab 2 Assignment on URCourses.  
+Please put your application under your revision control and push to your repository. 
 
