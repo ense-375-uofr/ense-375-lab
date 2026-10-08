@@ -316,6 +316,7 @@ This confirms:
 1. Install Apache Maven and put the bin directory in your path.
 2. Open **VSCode**:  
    One the left menu click the Folders icon.
+   If that does not work, then open the folder to where you want your project.  Then Ctrl+Shift+P or Cmd_Shift+P and select Java:Create Java Project.
 
 3. Click Create Java Project.
 
